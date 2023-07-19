@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+  <title>HTML and CSS "Hello World"</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #2D2D2D;
+      background: radial-gradient(circle, rgba(63,94,251,1) 38%, rgba(155,70,252,1) 100%);
+      font-family: 'Pacifico', cursive;
+      margin: 0;
+      padding: 0;
+    }
+    div.container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      display: inline;
+      color: rgb(232 245 0);
+      font-size: clamp(2.25rem, -1.5781rem + 12.25vw, 5.3125rem);
+      text-shadow: rgba(255,162,0,0.9) 0px 0px 30px;
+
+      margin: 0;
+      margin-bottom: -1.5%;
+     }
+     p {
+      color: rgb(255 173 100);
+      margin: 0;
+      font-size: clamp(1rem, -0.25rem + 4vw, 2rem);
+     }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hello World!</h1>
+    <p>Next stop, the moon.</p>
+  </div>
+</body>
+</html>
