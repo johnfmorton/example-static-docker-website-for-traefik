@@ -19,7 +19,7 @@ docker-compose -p basic-web-site -f docker-compose.yml up -d --remove-orphans
 
 ## DNS and the environment file
 
-Using the `example.env` file as a reference, create a `.env` file in the same directory as the `docker-compose.yml` file. The `.env` file should contain the following variables:
+Using the [`example.env`](/example.env) file as a reference, create a `.env` file in the same directory as the `docker-compose.yml` file. The `.env` file should contain the following variables:
 
 ```
 SITE_URL=example.com
@@ -35,4 +35,5 @@ The `web` directory is mounted as a volume in the `nginx` container. The `nginx`
 
 ## License
 
-MIT License
+The source code for the site is licensed under the MIT license, which you can find in
+the MIT-LICENSE.txt file.
