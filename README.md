@@ -4,6 +4,9 @@ This repo contains a docker-compose.yml that creates a static website and a Trae
 
 It was created to be used as a sample web site for the following repo: https://github.com/johnfmorton/traefik-for-laravel-forge
 
+## The accompanying blog post
+
+For a complete write-up on using this repo, read [*Analytics a different way. Plausible Analytics on Laravel Forge with Traefik and Docker.*](https://supergeekery.com/blog/plausible-analytics-on-laravel-forge-with-traefik-and-docker)
 
 ## Usage
 
