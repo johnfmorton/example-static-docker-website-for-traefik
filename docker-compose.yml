@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   test-web-server:
     image: nginx:latest
@@ -10,9 +8,9 @@ services:
       - proxy
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.web.rule=Host(`${SITE_URL}`)"
-      - "traefik.http.routers.web.entrypoints=websecure"
-      - "traefik.http.routers.web.tls.certresolver=leresolver"
+      - "traefik.http.routers.hello-world.rule=Host(`${SITE_URL}`)"
+      - "traefik.http.routers.hello-world.entrypoints=websecure"
+      - "traefik.http.routers.hello-world.tls.certresolver=leresolver"
 
 networks:
   proxy:
